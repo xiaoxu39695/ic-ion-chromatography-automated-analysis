@@ -49,7 +49,7 @@ class AnalysisTests(unittest.TestCase):
         app.run()
         self.assertFalse(app.exception)
         self.assertFalse(app.error)
-        app.selectbox[0].select('Piecewise (0.001 M boundary)').run()
+        next(w for w in app.selectbox if w.label == 'Calibration model').select('Piecewise (0.001 M boundary)').run()
         self.assertFalse(app.exception)
         self.assertFalse(app.error)
 
