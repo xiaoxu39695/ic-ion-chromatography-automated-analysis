@@ -1,6 +1,6 @@
 # IC Ion Chromatography Automated Analysis
 
-An English-language Streamlit application for chromatogram integration and calibration-based concentration analysis, currently specialized for NaI / iodide.
+A Streamlit application for chromatogram integration and calibration-based concentration analysis, currently specialized for NaI / iodide.
 
 **No calibration data, chromatograms, measured peak areas, fitted experimental coefficients or laboratory reports are included.** Bring your own standards and validate your analytical method.
 
